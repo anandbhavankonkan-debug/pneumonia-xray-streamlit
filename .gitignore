@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+*.zip
+*.ipynb
+screenshots/
+test_uploads/
+.DS_Store
