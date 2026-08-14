@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+*.ipynb
+*.zip
+.git/
+.github/
+.devcontainer/
+tests/
+requirements-dev.txt
+sample_images/
+screenshots/
