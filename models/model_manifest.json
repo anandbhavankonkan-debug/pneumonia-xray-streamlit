@@ -1,0 +1,24 @@
+{
+  "model_name": "Fine-tuned VGG16",
+  "artifact_filename": "fine_tuned_vgg16.keras",
+  "format": "Keras v3 .keras",
+  "input_height": 224,
+  "input_width": 224,
+  "input_channels": 3,
+  "class_names_in_order": [
+    "Normal",
+    "Pneumonia",
+    "Not Normal No Lung Opacity"
+  ],
+  "number_of_classes": 3,
+  "input_value_range": [
+    0.0,
+    1.0
+  ],
+  "preprocessing": "Decode DICOM, resize to IMG_SIZE, normalize to [0, 1], repeat grayscale to three channels; the saved model's VGG16Preprocessing layer applies VGG16 preprocessing.",
+  "output": "Three softmax probabilities in class_names_in_order",
+  "sha256": "00e3d55b3c2c000789ce344befd45531742eadc326d23eb30e4045d5789b89c3",
+  "size_bytes": 117204436,
+  "selection_basis": "Highest validation Macro F1 among five candidate models",
+  "intended_use": "Academic proof-of-concept and rubric deployment demonstration"
+}
